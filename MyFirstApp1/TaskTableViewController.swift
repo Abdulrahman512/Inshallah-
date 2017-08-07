@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewController: UITableViewController {
+class TaskTableViewController: UITableViewController {
     
     var tasks = [Task] ()
 
@@ -39,19 +39,19 @@ class TableViewController: UITableViewController {
         return 0
     }
 
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "NewCell", for: indexPath) as! NewCellTableView
-        
-        
-//        cell.projectTitleLabel.text = "List's title"
-        
-        // Configure the cell...
-        
-        return cell
-    }
-
-        
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "NewCell", for: indexPath) as! NewCellTableView
+//        
+//        
+////        cell.projectTitleLabel.text = "List's title"
+//        
+//        // Configure the cell...
+//        
+//        return cell
+//    }
+//
+    
     
     
 

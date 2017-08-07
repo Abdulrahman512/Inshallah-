@@ -7,29 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B434D9571F30FD6B00BDE458 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B434D9561F30FD6B00BDE458 /* TaskCell.swift */; };
+		B43812FB1F21289400351128 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43812FA1F21289400351128 /* TimerViewController.swift */; };
 		B44B617C1F1FDDDE0065C7C0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B617B1F1FDDDE0065C7C0 /* Task.swift */; };
 		B44B617E1F1FE0490065C7C0 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B617D1F1FE0490065C7C0 /* List.swift */; };
-		B44B61801F1FE1440065C7C0 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B617F1F1FE1440065C7C0 /* ListTableViewController.swift */; };
+		B44B61801F1FE1440065C7C0 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44B617F1F1FE1440065C7C0 /* ListViewController.swift */; };
+		B467A9AA1F2FB03600181E3C /* AddingNewListViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = B467A9A91F2FB03600181E3C /* AddingNewListViewController .swift */; };
 		B4D86D451F1D38A600B7BFED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D86D441F1D38A600B7BFED /* AppDelegate.swift */; };
 		B4D86D4A1F1D38A600B7BFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D86D481F1D38A600B7BFED /* Main.storyboard */; };
 		B4D86D4C1F1D38A600B7BFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D86D4B1F1D38A600B7BFED /* Assets.xcassets */; };
 		B4D86D4F1F1D38A600B7BFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D86D4D1F1D38A600B7BFED /* LaunchScreen.storyboard */; };
-		B4EAC0FA1F1E78C90086CDA6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAC0F91F1E78C90086CDA6 /* TableViewController.swift */; };
-		B4EAC0FC1F1E862F0086CDA6 /* NewCellTableView .swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAC0FB1F1E862F0086CDA6 /* NewCellTableView .swift */; };
+		B4EAC0FA1F1E78C90086CDA6 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EAC0F91F1E78C90086CDA6 /* TaskTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B434D9561F30FD6B00BDE458 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		B43812FA1F21289400351128 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		B44B617B1F1FDDDE0065C7C0 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		B44B617D1F1FE0490065C7C0 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
-		B44B617F1F1FE1440065C7C0 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = ../ListTableViewController.swift; sourceTree = "<group>"; };
+		B44B617F1F1FE1440065C7C0 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListViewController.swift; path = ../ListViewController.swift; sourceTree = "<group>"; };
+		B467A9A91F2FB03600181E3C /* AddingNewListViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AddingNewListViewController .swift"; sourceTree = "<group>"; };
 		B4D86D411F1D38A600B7BFED /* MyFirstApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D86D441F1D38A600B7BFED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4D86D491F1D38A600B7BFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4D86D4B1F1D38A600B7BFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4D86D4E1F1D38A600B7BFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4D86D501F1D38A600B7BFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4EAC0F91F1E78C90086CDA6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		B4EAC0FB1F1E862F0086CDA6 /* NewCellTableView .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NewCellTableView .swift"; sourceTree = "<group>"; };
+		B4EAC0F91F1E78C90086CDA6 /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 		B44B61811F1FE1660065C7C0 /* Controllers  */ = {
 			isa = PBXGroup;
 			children = (
-				B44B617F1F1FE1440065C7C0 /* ListTableViewController.swift */,
-				B4EAC0F91F1E78C90086CDA6 /* TableViewController.swift */,
+				B44B617F1F1FE1440065C7C0 /* ListViewController.swift */,
+				B467A9A91F2FB03600181E3C /* AddingNewListViewController .swift */,
+				B4EAC0F91F1E78C90086CDA6 /* TaskTableViewController.swift */,
+				B43812FA1F21289400351128 /* TimerViewController.swift */,
 			);
 			name = "Controllers ";
 			sourceTree = "<group>";
@@ -95,7 +101,7 @@
 		B4D86D581F1D399400B7BFED /* Views  */ = {
 			isa = PBXGroup;
 			children = (
-				B4EAC0FB1F1E862F0086CDA6 /* NewCellTableView .swift */,
+				B434D9561F30FD6B00BDE458 /* TaskCell.swift */,
 			);
 			name = "Views ";
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 				TargetAttributes = {
 					B4D86D401F1D38A600B7BFED = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C445A368M6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -172,11 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4EAC0FA1F1E78C90086CDA6 /* TableViewController.swift in Sources */,
+				B4EAC0FA1F1E78C90086CDA6 /* TaskTableViewController.swift in Sources */,
 				B44B617C1F1FDDDE0065C7C0 /* Task.swift in Sources */,
 				B4D86D451F1D38A600B7BFED /* AppDelegate.swift in Sources */,
-				B44B61801F1FE1440065C7C0 /* ListTableViewController.swift in Sources */,
-				B4EAC0FC1F1E862F0086CDA6 /* NewCellTableView .swift in Sources */,
+				B467A9AA1F2FB03600181E3C /* AddingNewListViewController .swift in Sources */,
+				B44B61801F1FE1440065C7C0 /* ListViewController.swift in Sources */,
+				B43812FB1F21289400351128 /* TimerViewController.swift in Sources */,
+				B434D9571F30FD6B00BDE458 /* TaskCell.swift in Sources */,
 				B44B617E1F1FE0490065C7C0 /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,9 +309,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C445A368M6;
 				INFOPLIST_FILE = MyFirstApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MakeSchool.MyFirstApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Make-school";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -312,9 +322,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C445A368M6;
 				INFOPLIST_FILE = MyFirstApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MakeSchool.MyFirstApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Make-school";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

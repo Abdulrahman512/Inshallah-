@@ -9,6 +9,13 @@
 import Foundation
 class List {
     var name : String = ""
+    var text = ""
+
+    //var tasks = [Task]() // ?
+    var marked = false
     
-     var tasks = [Task]()
+    func toggleChecked() {
+        marked = !marked
+}
+
 }
