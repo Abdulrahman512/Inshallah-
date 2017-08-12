@@ -7,15 +7,17 @@
 //
 
 import Foundation
-class List {
-    var name : String = ""
-    var text = ""
-
-    //var tasks = [Task]() // ?
-    var marked = false
-    
-    func toggleChecked() {
-        marked = !marked
-}
-
-}
+//class List {
+//    var name : String
+//    var text = ""
+//
+//    var tasks = [Task]()
+//    var marked = false
+//    init  (name :String) {
+//        self.name = name 
+//    }
+//    func toggleChecked() {
+//        marked = !marked
+//}
+//
+//}

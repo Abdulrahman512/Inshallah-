@@ -7,12 +7,13 @@
 //
 //
 import Foundation
-class Task {
-    var name : String
-    var taskDescription : String?
-    
-    init (name:String) {
-        self.name = name
-    }
-}
-
+//class Task {
+//    var name : String
+//    var taskDescription : String?
+//    var distractedCount = 0
+//    
+//    init (name:String) {
+//        self.name = name
+//    }
+//}
+//

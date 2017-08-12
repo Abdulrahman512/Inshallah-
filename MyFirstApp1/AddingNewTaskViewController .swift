@@ -3,27 +3,30 @@
 //  MyFirstApp1
 //
 //  Created by Abdulrahman Althobaiti on 7/31/17.
-//  Copyright © 2017 Abdulrahman Althobaiti. All rights reserved.
+////  Copyright © 2017 Abdulrahman Althobaiti. All rights reserved.
+////
 //
-
 import UIKit
 
-class AddingNewListTableViewController: UIViewController , UITextFieldDelegate  {
+class AddingNewTaskTableViewController: UIViewController , UITextFieldDelegate  {
     
-@IBOutlet weak var doneBarbutton: UIBarButtonItem!
+    @IBOutlet weak var doneBarbutton: UIBarButtonItem!
     
-@IBAction func done() {
     
-    dismiss(animated: true, completion: nil)
-}
     
-@IBOutlet weak var nameTextfield: UITextField!
+    @IBOutlet weak var nameTextfield: UITextField!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? ListTableViewController {
-            destination.tasks.append(Task(name: nameTextfield.text!))
-            destination.tableView.reloadData()
+            let newTask = CoreDataHelper.newTask()
+            newTask.name = nameTextfield.text!
+            
+            destination.tasksArrayFromTasksSet.append(newTask)
+            destination.list?.tasks = NSSet(array: destination.tasksArrayFromTasksSet)
+            CoreDataHelper.save()
+            //destination.tableView.reloadData()
         }
+        //tasksArrayFromTasksSet?
         
     }
     
@@ -44,5 +47,10 @@ class AddingNewListTableViewController: UIViewController , UITextFieldDelegate  
         
         return true
         
+    }
+    
+    @IBAction func done() {
+        
+        //dismiss(animated: true, completion: nil)
     }
 }

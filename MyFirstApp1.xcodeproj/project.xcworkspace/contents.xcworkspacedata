@@ -5,6 +5,9 @@
       location = "container:"
       name = "New Group">
       <FileRef
+         location = "group:CoreDataHelper.swift">
+      </FileRef>
+      <FileRef
          location = "self:MyFirstApp1.xcodeproj">
       </FileRef>
    </Group>
